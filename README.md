@@ -6,3 +6,5 @@ Summaries of the datasets are in Overview.psv
 
 
 Idea: Include an expected return based on selectable, reasonable assumptions. Somehow Also tie in community effects. 
+
+Repository link: https://github.com/MJRobillard/LithiumValley

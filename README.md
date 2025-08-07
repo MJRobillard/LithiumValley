@@ -1,10 +1,10 @@
-# Potential Data Sources  
-Given a map visual is easily understood, we can do map layers with the following major categories: Lithium, Water, and Infrastructure. Below is an initial search for data sets that needs to be processed.  
-
-Summaries of the datasets are in Overview.psv
+# Potential Data Sources for the lithium valley (LV) Minimum Viable Product (MVP) Dashboard
 
 
+**Summaries of the datasets are in index.csv**
 
-Idea: Include an expected return based on selectable, reasonable assumptions. Somehow Also tie in community effects. 
 
 Repository link: https://github.com/MJRobillard/LithiumValley
+
+## Update
+8/7 - GeoFlight and CalGem_geothermal in the tableu, will not upload the original geoflight data because its big but the link is in the index.csv

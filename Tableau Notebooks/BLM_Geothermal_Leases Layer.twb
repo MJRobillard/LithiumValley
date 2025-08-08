@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='BLM_CA_Geothermal_Leases_Polygon' inline='true' name='federated.0h2aycg0n6f5oc100ucxf1e20e3k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BLM_CA_Geothermal_Leases_Polygon' name='ogrdirect.1dsuy6p1y4p7tj1fbhux207guqj3'>
+            <connection class='ogrdirect' directory='C:/Users/ratth/Downloads/BLM_CA_Geothermal_Leases_Polygon' filename='BLM_CA_Geothermal_Leases_Polygon.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.1dsuy6p1y4p7tj1fbhux207guqj3' name='BLM_CA_Geothermal_Leases_Polygon.shp' table='[BLM_CA_Geothermal_Leases_Polygon.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='string' name='serial_nr_' ordinal='1' />
+            <column datatype='real' name='ttl_case_a' ordinal='2' />
+            <column datatype='string' name='commodity_' ordinal='3' />
+            <column datatype='string' name='case_disp_' ordinal='4' />
+            <column datatype='date' name='disp_dt' ordinal='5' />
+            <column datatype='real' name='GISacres' ordinal='6' />
+            <column datatype='string' name='casetype' ordinal='7' />
+            <column datatype='string' name='casetype_t' ordinal='8' />
+            <column datatype='string' name='GlobalID' ordinal='9' />
+            <column datatype='date' name='last_edite' ordinal='10' />
+            <column datatype='real' name='Shape_Leng' ordinal='11' />
+            <column datatype='real' name='Shape_Area' ordinal='12' />
+            <column datatype='spatial' name='Geometry' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>serial_nr_</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[serial_nr_]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>serial_nr_</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ttl_case_a</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ttl_case_a]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>ttl_case_a</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commodity_</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[commodity_]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>commodity_</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>case_disp_</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[case_disp_]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>case_disp_</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disp_dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[disp_dt]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>disp_dt</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GISacres</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GISacres]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>GISacres</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>casetype</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[casetype]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>casetype</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>casetype_t</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[casetype_t]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>casetype_t</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GlobalID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GlobalID]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>GlobalID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_edite</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_edite]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>last_edite</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape_Leng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape_Leng]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>Shape_Leng</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shape_Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shape_Area]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>Shape_Area</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[BLM_CA_Geothermal_Leases_Polygon.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='GI Sacres' datatype='real' name='[GISacres]' role='measure' type='quantitative' />
+      <column caption='Global ID' datatype='string' name='[GlobalID]' role='dimension' type='nominal' />
+      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Shape Area' datatype='real' name='[Shape_Area]' role='measure' type='quantitative' />
+      <column caption='Shape Leng' datatype='real' name='[Shape_Leng]' role='measure' type='quantitative' />
+      <column caption='BLM_CA_Geothermal_Leases_Polygon.shp' datatype='table' name='[__tableau_internal_object_id__].[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]' role='measure' type='quantitative' />
+      <column caption='Case Disp' datatype='string' name='[case_disp_]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Casetype' datatype='string' default-role='measure' name='[casetype]' role='dimension' type='ordinal' />
+      <column caption='Casetype T' datatype='string' name='[casetype_t]' role='dimension' type='nominal' />
+      <column caption='Commodity' datatype='string' name='[commodity_]' role='dimension' type='nominal' />
+      <column caption='Disp Dt' datatype='date' name='[disp_dt]' role='dimension' type='ordinal' />
+      <column caption='Last Edite' datatype='date' name='[last_edite]' role='dimension' type='ordinal' />
+      <column caption='Serial Nr' datatype='string' name='[serial_nr_]' role='dimension' type='nominal' />
+      <column caption='Ttl Case A' datatype='real' name='[ttl_case_a]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ratth/AppData/Local/Temp/TableauTemp/#TableauTemp_0f9ozr20llgand1ftepir0fyvcb4.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/07/2025 11:47:08 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>OBJECTID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[OBJECTID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OBJECTID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>serial_nr_</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[serial_nr_]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>serial_nr_</remote-alias>
+              <ordinal>1</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ttl_case_a</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ttl_case_a]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ttl_case_a</remote-alias>
+              <ordinal>2</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>commodity_</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[commodity_]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>commodity_</remote-alias>
+              <ordinal>3</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>case_disp_</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[case_disp_]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>case_disp_</remote-alias>
+              <ordinal>4</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>disp_dt</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[disp_dt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>disp_dt</remote-alias>
+              <ordinal>5</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GISacres</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GISacres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GISacres</remote-alias>
+              <ordinal>6</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>casetype</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[casetype]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>casetype</remote-alias>
+              <ordinal>7</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>casetype_t</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[casetype_t]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>casetype_t</remote-alias>
+              <ordinal>8</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GlobalID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GlobalID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GlobalID</remote-alias>
+              <ordinal>9</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_edite</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[last_edite]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_edite</remote-alias>
+              <ordinal>10</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shape_Leng</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Shape_Leng]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shape_Leng</remote-alias>
+              <ordinal>11</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shape_Area</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Shape_Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shape_Area</remote-alias>
+              <ordinal>12</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>13</ordinal>
+              <family>BLM_CA_Geothermal_Leases_Polygon.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='BLM_CA_Geothermal_Leases_Polygon.shp' id='BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47'>
+            <properties context=''>
+              <relation connection='ogrdirect.1dsuy6p1y4p7tj1fbhux207guqj3' name='BLM_CA_Geothermal_Leases_Polygon.shp' table='[BLM_CA_Geothermal_Leases_Polygon.shp]' type='table'>
+                <columns>
+                  <column datatype='integer' name='OBJECTID' ordinal='0' />
+                  <column datatype='string' name='serial_nr_' ordinal='1' />
+                  <column datatype='real' name='ttl_case_a' ordinal='2' />
+                  <column datatype='string' name='commodity_' ordinal='3' />
+                  <column datatype='string' name='case_disp_' ordinal='4' />
+                  <column datatype='date' name='disp_dt' ordinal='5' />
+                  <column datatype='real' name='GISacres' ordinal='6' />
+                  <column datatype='string' name='casetype' ordinal='7' />
+                  <column datatype='string' name='casetype_t' ordinal='8' />
+                  <column datatype='string' name='GlobalID' ordinal='9' />
+                  <column datatype='date' name='last_edite' ordinal='10' />
+                  <column datatype='real' name='Shape_Leng' ordinal='11' />
+                  <column datatype='real' name='Shape_Area' ordinal='12' />
+                  <column datatype='spatial' name='Geometry' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='BLM_CA_Geothermal_Leases_Polygon' name='federated.0h2aycg0n6f5oc100ucxf1e20e3k' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0h2aycg0n6f5oc100ucxf1e20e3k'>
+            <column caption='GI Sacres' datatype='real' name='[GISacres]' role='measure' type='quantitative' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Global ID' datatype='string' name='[GlobalID]' role='dimension' type='nominal' />
+            <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+            <column caption='Shape Area' datatype='real' name='[Shape_Area]' role='measure' type='quantitative' />
+            <column caption='Shape Leng' datatype='real' name='[Shape_Leng]' role='measure' type='quantitative' />
+            <column caption='BLM_CA_Geothermal_Leases_Polygon.shp' datatype='table' name='[__tableau_internal_object_id__].[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GISacres]' derivation='Attribute' name='[attr:GISacres:qk]' pivot='key' type='quantitative' />
+            <column caption='Case Disp' datatype='string' name='[case_disp_]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='Commodity' datatype='string' name='[commodity_]' role='dimension' type='nominal' />
+            <column-instance column='[GlobalID]' derivation='None' name='[none:GlobalID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[case_disp_]' derivation='None' name='[none:case_disp_:nk]' pivot='key' type='nominal' />
+            <column-instance column='[commodity_]' derivation='None' name='[none:commodity_:nk]' pivot='key' type='nominal' />
+            <column-instance column='[serial_nr_]' derivation='None' name='[none:serial_nr_:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ttl_case_a]' derivation='None' name='[none:ttl_case_a:qk]' pivot='key' type='quantitative' />
+            <column caption='Serial Nr' datatype='string' name='[serial_nr_]' role='dimension' type='nominal' />
+            <column-instance column='[OBJECTID]' derivation='Sum' name='[sum:OBJECTID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shape_Area]' derivation='Sum' name='[sum:Shape_Area:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shape_Leng]' derivation='Sum' name='[sum:Shape_Leng:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ttl_case_a]' derivation='Sum' name='[sum:ttl_case_a:qk]' pivot='key' type='quantitative' />
+            <column caption='Ttl Case A' datatype='real' name='[ttl_case_a]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[__tableau_internal_object_id__].[cnt:BLM_CA_Geothermal_Leases_Polygon.shp_C77C9B01F2DD4A1798723D720FB0FE47:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[attr:GISacres:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[sum:OBJECTID:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[sum:Shape_Area:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[sum:Shape_Leng:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[sum:ttl_case_a:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[Longitude (generated)]' field-type='quantitative' max='-12811461.248853305' min='-12933293.01303654' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[Latitude (generated)]' field-type='quantitative' max='3975479.1447264506' min='3883673.9089352009' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:case_disp_:nk]' />
+              <lod column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[clct:Geometry:nk]' />
+              <lod column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:ttl_case_a:qk]' />
+              <lod column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:commodity_:nk]' />
+              <lod column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:GlobalID:nk]' />
+              <lod column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:serial_nr_:nk]' />
+              <geometry column='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[clct:Geometry:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[Latitude (generated)]</rows>
+        <cols>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{431DD76E-ED95-4D18-B3BC-BDA55C84FBFA}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:case_disp_:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[:Measure Names]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[clct:Geometry:nk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:GlobalID:nk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:OBJECTID:qk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:case_disp_:nk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:commodity_:nk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[none:serial_nr_:nk]</field>
+            <field>[federated.0h2aycg0n6f5oc100ucxf1e20e3k].[yr:disp_dt:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{A22D0BE8-570D-466D-90AE-E2611AE4EB4A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

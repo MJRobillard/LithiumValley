@@ -8,3 +8,5 @@ Repository link: https://github.com/MJRobillard/LithiumValley
 
 ## Update
 8/7 - GeoFlight and CalGem_geothermal in the tableu, will not upload the original geoflight data because its big but the link is in the index.csv
+
+8/29 - All the data for the tableau dashboard is in the TableauReady folde rin the zipped data folder. For interest in how it was made, review the scripts/preprocessing/ folder. 

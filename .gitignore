@@ -4,3 +4,8 @@ data/
 merge_project/
 Reading Material/
 Tableau/
+ML_Arkansas/
+ML_Arkansas_Analysis/
+1_FilterColumns.sql
+postgres.session copy.sql
+.specstory

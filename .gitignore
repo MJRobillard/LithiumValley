@@ -1,5 +1,4 @@
 .spectstory
-!data/current_data.zip
 data/
 merge_project/
 Reading Material/
@@ -9,3 +8,4 @@ ML_Arkansas_Analysis/
 1_FilterColumns.sql
 postgres.session copy.sql
 .specstory
+current_data.zip
